@@ -1,7 +1,6 @@
+// archivo counter_provider.dart
 import 'package:flutter/material.dart';
 import '../data/counter_persistence.dart';
-
-
 
 class CounterProvider extends ChangeNotifier {
   int _value = 0;
