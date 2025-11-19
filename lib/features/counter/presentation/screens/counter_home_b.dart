@@ -18,7 +18,8 @@ class CounterHomeB extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("Valor: ${provider.value}", style: const TextStyle(fontSize: 30)),
+          Text("Valor: ${provider.value}",
+              style: const TextStyle(fontSize: 30)),
           const SizedBox(height: 20),
           CounterControls(
             onIncrement: provider.increment,
