@@ -22,5 +22,6 @@ class CounterControls extends StatelessWidget {
         ElevatedButton(onPressed: onIncrement, child: const Text('+')),
       ],
     );
-  }
+  
+}
 }
